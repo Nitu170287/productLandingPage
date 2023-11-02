@@ -1,0 +1,21 @@
+.pagination-componenet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:2.5rem;
+    
+}
+
+.page-button{
+    padding: 1.3rem;
+    border-radius: 50%;
+    margin: .5rem;
+    font-size: 1rem;
+    color: #7B015C;
+    background-color: #f3f3f3;
+}
+
+.active{
+    background-color: #7B015C;
+    color: #f3f3f3;
+}
