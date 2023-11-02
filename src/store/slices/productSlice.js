@@ -54,20 +54,17 @@ const ProductSlice = createSlice({
                 p.title.toUpperCase().indexOf(payload.toUpperCase()) >= 0 ||
                 p.description.toUpperCase().indexOf(payload.toUpperCase()) >= 0
             )
-          : state.originalProduct.slice(0, 10),
+          : state.originalProduct.slice(0, 9),
       };
     },
     setPage: (state, { payload }) => {
       //console.log("payload", payload);
       let prevIndex = payload - 1;
-      console.log(
-        "pageNumber",
-        payload
-      );
+      console.log("pageNumber", payload);
       return {
         ...state,
         currentPage: payload,
-        products: state.originalProduct.slice(prevIndex*9, prevIndex*9 + 9),
+        products: state.originalProduct.slice(prevIndex * 9, prevIndex * 9 + 9),
       };
     },
   },
