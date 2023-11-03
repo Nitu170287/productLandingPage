@@ -1,6 +1,9 @@
 # MeShop e-commerce app
 
-This project is an e=commerce application which shows the available product list .
+This project is an e=commerce application which shows the available product list. User can 
+1. view the products across different pages,
+2. filter the products based on categories(men, women, jewellery etc)
+3. search the products based on title and description.
 
 ## Api Used
 This project uses fake api(https://fakestoreapi.com/products) to fetch the list of product to be displayed.
