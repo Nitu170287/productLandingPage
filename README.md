@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# MeShop e-commerce app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is an e=commerce application which shows the available product list .
+
+## Api Used
+This project uses fake api(https://fakestoreapi.com/products) to fetch the list of product to be displayed.
+
+## Library used
+1. Styled Component - for styling the component
+2. Material UI - for footer and loading components
+3. Bootstrap - for styling the button element
+4. Axios - to fetch the data from api
+5. Redux - is use to create actions and reducers for managing and distributing data across components
 
 ## Available Scripts
 
